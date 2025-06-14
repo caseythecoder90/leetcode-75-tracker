@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Upload, Play, Code } from 'lucide-react'
 
 interface WelcomeScreenProps {
-  onStart: (importData?: any) => void
+  onStart: (importData?: Record<string, any>) => void
 }
 
 export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
@@ -20,7 +20,7 @@ export function WelcomeScreen({ onStart }: WelcomeScreenProps) {
         } else {
           alert('Invalid file format')
         }
-      } catch (error) {
+      } catch {
         alert('Error reading file')
       }
     }

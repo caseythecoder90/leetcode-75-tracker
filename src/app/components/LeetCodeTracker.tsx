@@ -7,6 +7,7 @@ import { CategorySection } from './CategorySection'
 import { NoteModal } from './NoteModal'
 import { leetcodeData, type Problem, type ProblemStats, type Filters } from '../data/leetcodeData'
 import { 
+
   Download,
   Upload,
   Shuffle
@@ -165,7 +166,7 @@ export function LeetCodeTracker() {
         } else {
           alert('Invalid file format. Please select a valid export file.')
         }
-      } catch (error) {
+      } catch {
         alert('Error importing file. Please check the file format.')
       }
     }

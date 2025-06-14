@@ -16,7 +16,7 @@ export default function Home() {
     }
   }, [])
 
-  const handleStart = (importData?: any) => {
+  const handleStart = (importData?: Record<string, unknown>) => {
     if (importData) {
       localStorage.setItem('leetcode75-progress', JSON.stringify(importData))
     }
