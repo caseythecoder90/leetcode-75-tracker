@@ -7,10 +7,6 @@ import { CategorySection } from './CategorySection'
 import { NoteModal } from './NoteModal'
 import { leetcodeData, type Problem, type ProblemStats, type Filters } from '../data/leetcodeData'
 import { 
-  Trophy, 
-  Target, 
-  Calendar, 
-  TrendingUp,
   Download,
   Upload,
   Shuffle
