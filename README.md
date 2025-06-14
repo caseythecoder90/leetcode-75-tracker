@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LeetCode 75 Progress Tracker
 
-## Getting Started
+A modern, responsive web application to track your progress through the LeetCode 75 study plan. Built with Next.js 14, React, and Tailwind CSS.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 📊 **Progress Tracking**: Visual statistics and completion rates
+- 📝 **Notes System**: Add detailed notes for each problem
+- 🎲 **Smart Random Selection**: Weighted algorithm prioritizes unfinished problems
+- 🔍 **Advanced Filtering**: Filter by category, status, and difficulty
+- 💾 **Data Management**: Export/import progress as JSON
+- 📱 **Responsive Design**: Works perfectly on desktop and mobile
+- ⚡ **Fast & Offline**: Local storage with instant updates
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Quick Start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone and Install**
+   ```bash
+   npm create next-app@latest leetcode-75-tracker
+   cd leetcode-75-tracker
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Copy the Code**
+   Replace the generated files with the code from this artifact.
 
-## Learn More
+3. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Deploy to Vercel**
+   ```bash
+   npm run build
+   vercel --prod
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This app is optimized for Vercel deployment:
 
-## Deploy on Vercel
+1. Push to GitHub
+2. Connect repository to Vercel
+3. Deploy automatically
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No additional configuration needed!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+- **Frontend**: Next.js 14, React, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Storage**: LocalStorage with export/import
+- **Deployment**: Vercel
+
+## Usage
+
+1. **Start Fresh** or **Import Progress** from the welcome screen
+2. **Mark problems as solved** by clicking the ✓ button
+3. **Add notes** with solution approaches and complexity analysis
+4. **Use filters** to focus on specific categories or review needs
+5. **Pick random problems** for spaced repetition practice
+6. **Export your data** regularly for backup
+
+## License
+
+MIT License - feel free to use and modify!
